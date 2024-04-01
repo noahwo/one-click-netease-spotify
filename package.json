@@ -1,0 +1,23 @@
+{
+  "name": "one-click-netease-spotify",
+  "version": "1.0.0",
+  "description": "Oneclick to import all your playlists from Netease Music to Spotify.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "spotify-api.js": "^9.2.5"
+  },
+  "devDependencies": {
+    "docai": "^2.1.0",
+    "jest": "^29.7.0"
+  }
+}

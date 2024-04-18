@@ -1,1775 +1,259 @@
 [
   {
-    "ne_id": 2220022700,
-    "name": "youcriedasloudasyoucould喜欢的音乐",
-    "trackCount": 64,
+    "ne_id": 3228884025,
+    "name": "每日推荐2020-02-05",
+    "trackCount": 31,
     "songs": [
-      {
-        "name": "往后余生",
-        "artist": "马良"
-      },
-      {
-        "name": "espresso",
-        "artist": "l o k a !"
-      },
-      {
-        "name": "H.E.R",
-        "artist": "Rous"
-      },
-      {
-        "name": "Someday",
-        "artist": "Sugar Ray"
-      },
-      {
-        "name": "Way Back Into Love",
-        "artist": "Haley Bennett"
-      },
-      {
-        "name": "MELANCHOLY",
-        "artist": "White Cherry"
-      },
-      {
-        "name": "Mary",
-        "artist": "Big Thief"
-      },
-      {
-        "name": "Goodnight & Goodbye",
-        "artist": "Mree"
-      },
-      {
-        "name": "City Of Stars (From \"La La Land\" Soundtrack)",
-        "artist": "Emma Stone"
-      },
-      {
-        "name": "alittlesomething",
-        "artist": "ldst"
-      },
-      {
-        "name": "September Blue",
-        "artist": "Chris Rea"
-      },
-      {
-        "name": "Silhouettes Of You",
-        "artist": "Isaac Gracie"
-      },
-      {
-        "name": "Song On The Beach",
-        "artist": "Arcade Fire"
-      },
-      {
-        "name": "Woes",
-        "artist": "Tom Rosenthal"
-      },
-      {
-        "name": "Wherever You Will Go",
-        "artist": "Charlene Soraia"
-      },
-      {
-        "name": "晚风",
-        "artist": "陈婧霏"
-      },
-      {
-        "name": "对不起 我把你弄丢了//",
-        "artist": "张彵凡"
-      },
-      {
-        "name": "逃",
-        "artist": "蘇山海"
-      },
-      {
-        "name": "Distance",
-        "artist": "房东的猫"
-      },
-      {
-        "name": "Perfect Ed Sheeran Beyoncé",
-        "artist": "Boyce Avenue"
-      },
-      {
-        "name": "Imagine",
-        "artist": "John Lennon"
-      },
-      {
-        "name": "ρ",
-        "artist": "α·Pav"
-      },
-      {
-        "name": "i said it, almost",
-        "artist": "NDIFFERENT"
-      },
-      {
-        "name": "Aftermath",
-        "artist": "Doveman"
-      },
-      {
-        "name": "Stars",
-        "artist": "Azuria Sky"
-      },
-      {
-        "name": "Nice Colors",
-        "artist": "khai dreams"
-      },
-      {
-        "name": "the scientist",
-        "artist": "hateful"
-      },
       {
         "name": "I Can't Carry This Anymore",
         "artist": "Anson Seabra"
+      },
+      {
+        "name": "Nuvole Bianche",
+        "artist": "Ludovico Einaudi"
+      },
+      {
+        "name": "Flapper Girl",
+        "artist": "The Lumineers"
+      },
+      {
+        "name": "这个世界不会好",
+        "artist": "子默"
+      },
+      {
+        "name": "Blanc",
+        "artist": "Sylvain Chauveau"
+      },
+      {
+        "name": "Singur",
+        "artist": "Oskar Schuster"
+      },
+      {
+        "name": "爱在夏天",
+        "artist": "告五人"
+      },
+      {
+        "name": "Break the Cycle",
+        "artist": "You+Me"
+      },
+      {
+        "name": "But you’re already gone",
+        "artist": "Xeuphoria"
+      },
+      {
+        "name": "Make a Little Room",
+        "artist": "Al Lewis & Sarah Howells"
+      },
+      {
+        "name": "Light A Fire",
+        "artist": "Rachel Taylor"
+      },
+      {
+        "name": "Perhaps things had finally begun to move",
+        "artist": "A Cerulean State"
+      },
+      {
+        "name": "One Tin Soldier",
+        "artist": "New Strangers"
+      },
+      {
+        "name": "童梦月光谣",
+        "artist": "陈鸿宇"
+      },
+      {
+        "name": "さがしもの",
+        "artist": "ハンバート ハンバート"
+      },
+      {
+        "name": "Eyepennies",
+        "artist": "Sparklehorse"
+      },
+      {
+        "name": "Mon Amour, Mon Amour...",
+        "artist": "Elyonbeats"
+      },
+      {
+        "name": "过来人 (Live)",
+        "artist": "hush！"
+      },
+      {
+        "name": "千禧",
+        "artist": "徐秉龙"
+      },
+      {
+        "name": "胭脂粉",
+        "artist": "周末"
+      },
+      {
+        "name": "大千世界",
+        "artist": "王爽"
+      },
+      {
+        "name": "病句",
+        "artist": "棱镜乐队"
+      },
+      {
+        "name": "When You Say Nothing at All",
+        "artist": "Keith Whitley"
+      },
+      {
+        "name": "I’ll Still Have Me",
+        "artist": "CYN"
+      },
+      {
+        "name": "说不定明天他就来了",
+        "artist": "陈壹千"
+      },
+      {
+        "name": "Lucky Final",
+        "artist": "go missing"
+      },
+      {
+        "name": "昆明",
+        "artist": "麻园诗人"
+      },
+      {
+        "name": "Burdened",
+        "artist": "Late June"
+      },
+      {
+        "name": "if only.",
+        "artist": "Rook1e"
+      },
+      {
+        "name": "ＤＲＥＡＭ",
+        "artist": "TRA$H"
+      },
+      {
+        "name": "Nocturnes:Andantino",
+        "artist": "Agustin Maruri"
+      }
+    ]
+  },
+  {
+    "ne_id": 3224830097,
+    "name": "每日歌曲推荐(2020.02.02)",
+    "trackCount": 30,
+    "songs": [
+      {
+        "name": "Reflections",
+        "artist": "Joshua Hyslop"
+      },
+      {
+        "name": "Summer Thunder",
+        "artist": "Roo Panes"
+      },
+      {
+        "name": "Death with Dignity",
+        "artist": "Sufjan Stevens"
+      },
+      {
+        "name": "Did You Think It Was Right",
+        "artist": "Old Sea Brigade"
+      },
+      {
+        "name": "Sleep On The Floor",
+        "artist": "The Lumineers"
+      },
+      {
+        "name": "Blame the Weather",
+        "artist": "Dave Thomas Junior"
+      },
+      {
+        "name": "Father And Son",
+        "artist": "Johnny Cash"
+      },
+      {
+        "name": "Love Like This (Acoustic)",
+        "artist": "Kodaline"
+      },
+      {
+        "name": "The Sandman",
+        "artist": "Neo Retros"
+      },
+      {
+        "name": "Stay",
+        "artist": "Lewis Watson"
+      },
+      {
+        "name": "In A Tree",
+        "artist": "Priscilla Ahn"
+      },
+      {
+        "name": "moonlight",
+        "artist": "mich"
+      },
+      {
+        "name": "Time in a Bottle",
+        "artist": "Jim Croce"
+      },
+      {
+        "name": "The Other Side",
+        "artist": "Conan Gray"
+      },
+      {
+        "name": "Alpha",
+        "artist": "橘子海 (Orange Ocean)"
+      },
+      {
+        "name": "Dear Mary",
+        "artist": "悶餅MOONBAND"
+      },
+      {
+        "name": "Lover Song",
+        "artist": "SoulFa 灵魂沙发"
+      },
+      {
+        "name": "Little Light",
+        "artist": "Matt Hammitt"
+      },
+      {
+        "name": "Ukulele Water",
+        "artist": "Rachel Goodrich"
+      },
+      {
+        "name": "浮生",
+        "artist": "刘莱斯"
+      },
+      {
+        "name": "写给黄淮",
+        "artist": "邵帅"
+      },
+      {
+        "name": "云烟成雨",
+        "artist": "房东的猫"
+      },
+      {
+        "name": "不待",
+        "artist": "忱忱老板"
+      },
+      {
+        "name": "马马嘟嘟骑",
+        "artist": "斯斯与帆"
+      },
+      {
+        "name": "偶然黄昏见",
+        "artist": "棱镜乐队"
       },
       {
         "name": "Bird Gerhl",
         "artist": "Antony and the Johnsons"
       },
       {
-        "name": "总有一天你会出现在我身边",
-        "artist": "棱镜乐队"
+        "name": "My beautiful（demo）",
+        "artist": "Davin大文"
       },
       {
-        "name": "Landing Guy",
-        "artist": "刘昊霖"
+        "name": "The Deeper Level",
+        "artist": "Jodymoon"
       },
       {
-        "name": "Long Way Home",
-        "artist": "点灯人（Lamplighters）"
+        "name": "只只",
+        "artist": "孟凡明"
       },
       {
-        "name": "shelter",
-        "artist": "hakaisu"
-      },
-      {
-        "name": "逝年",
-        "artist": "夏小虎"
-      },
-      {
-        "name": "Too Many Days",
-        "artist": "Maria Solheim"
-      },
-      {
-        "name": "Bittersweet Chocolate",
-        "artist": "mr. hong"
-      },
-      {
-        "name": "Knockin' On Heaven's Door",
-        "artist": "Antony and the Johnsons"
-      },
-      {
-        "name": "Artemis (feat. Sachie)",
-        "artist": "NΣΣT"
-      },
-      {
-        "name": "Desire/眾生皆苦 #489943",
-        "artist": "苒"
-      },
-      {
-        "name": "Build It Better",
-        "artist": "Aron Wright"
-      },
-      {
-        "name": "Passi",
-        "artist": "Bruno Bavota"
-      },
-      {
-        "name": "Good and Ready",
-        "artist": "Anthony D'Amato"
-      },
-      {
-        "name": "we used to talk every night",
-        "artist": "mxmtoon"
-      },
-      {
-        "name": "Yourl0nelystar",
-        "artist": "NEZIAH."
-      },
-      {
-        "name": "日 暮 温 柔",
-        "artist": "Riva"
-      },
-      {
-        "name": "Beloved",
-        "artist": "Michael Hoppé"
-      },
-      {
-        "name": "The Coast No Man Can Tell",
-        "artist": "Bill Fay"
-      },
-      {
-        "name": "fly",
-        "artist": "vietra"
-      },
-      {
-        "name": "Near Light",
-        "artist": "Ólafur Arnalds"
-      },
-      {
-        "name": "The best smile in the world",
-        "artist": "barnes blvd."
-      },
-      {
-        "name": "Blind Tom",
-        "artist": "Grant-Lee Phillips"
-      },
-      {
-        "name": "i fell in love with you one night in september.",
-        "artist": "Rook1e"
-      },
-      {
-        "name": "I Wish I Was in New Orleans",
-        "artist": "Scarlett Johansson"
-      },
-      {
-        "name": "Berlin",
-        "artist": "Small Sur"
-      },
-      {
-        "name": "The Professor & La Fille Danse (Live)",
-        "artist": "Damien Rice"
-      },
-      {
-        "name": "The Blower’s Daughter",
-        "artist": "Damien Rice"
-      },
-      {
-        "name": "kobo",
-        "artist": "hideyuki hashimoto"
-      },
-      {
-        "name": "I saw you smile today. I almost forgot you faded away",
-        "artist": "Xeuphoria"
-      },
-      {
-        "name": "黄昏",
-        "artist": "手嶌葵"
-      },
-      {
-        "name": "Be Be Your Love",
-        "artist": "Rachael Yamagata"
-      },
-      {
-        "name": "i let her go. (prelude)",
-        "artist": "Rook1e"
-      },
-      {
-        "name": "Apple Bed",
-        "artist": "Sparklehorse"
-      },
-      {
-        "name": "The Moon Song (Film Version)",
-        "artist": "Scarlett Johansson"
-      },
-      {
-        "name": "All alright",
-        "artist": "Sigur Rós"
-      }
-    ]
-  },
-  {
-    "ne_id": 9569494487,
-    "name": "sad",
-    "trackCount": 376,
-    "songs": [
-      {
-        "name": "next to you (prod. by alicks.)",
-        "artist": "lil hawk boy"
-      },
-      {
-        "name": "August",
-        "artist": "AVALON"
-      },
-      {
-        "name": "Next To You",
-        "artist": "Sarcastic Sounds"
-      },
-      {
-        "name": "Starving",
-        "artist": "Alicks"
-      },
-      {
-        "name": "dancing on the ruins",
-        "artist": "Lowspirit"
-      },
-      {
-        "name": "Helpless！",
-        "artist": "SWALEN"
-      },
-      {
-        "name": "Đ ɾ ℴ Ꮃ ɳ",
-        "artist": "4-ever"
-      },
-      {
-        "name": "empty (lil bo weep cover)",
-        "artist": "✰loowana✰"
-      },
-      {
-        "name": "i know you so well",
-        "artist": "xfruge"
-      },
-      {
-        "name": "Everything's going to be okay, we're headed to a better place now",
-        "artist": "Le Play"
-      },
-      {
-        "name": "Gone",
-        "artist": "The Exploration"
-      },
-      {
-        "name": "l e t d o w n",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "I Hate You, But I Love You",
-        "artist": "Lil Yung Pharaoh"
-      },
-      {
-        "name": "untilwebleed",
-        "artist": "Dontleaveme"
-      },
-      {
-        "name": "Heavy (prod. by killedmyself)",
-        "artist": "Siren"
-      },
-      {
-        "name": "ソラに行くいけない ~ Don't Go Sora",
-        "artist": "cybergodサイバー神"
-      },
-      {
-        "name": "It's Over",
-        "artist": "T R Λ P C O D E"
-      },
-      {
-        "name": "subtitles",
-        "artist": "nobloodnotears"
-      },
-      {
-        "name": "Birch",
-        "artist": "Rivilin"
-      },
-      {
-        "name": "S t o r m",
-        "artist": "4-ever"
-      },
-      {
-        "name": "4",
-        "artist": "✞ pvrvnormvl ✞"
-      },
-      {
-        "name": "Bubble Gum",
-        "artist": "Clairo"
-      },
-      {
-        "name": "ǝɔuɐɹʇuǝ uɐ ƃuᴉʞɐɯ (combination lock & ʎpoqou)",
-        "artist": "tttafari"
-      },
-      {
-        "name": "Itachi Uchiha",
-        "artist": "FREE FLOW FLAVA"
-      },
-      {
-        "name": "So Long",
-        "artist": "ALXVLTZ"
-      },
-      {
-        "name": "winter.",
-        "artist": "VESK GREEN 青菜"
-      },
-      {
-        "name": "i feel your pain",
-        "artist": "timmies"
-      },
-      {
-        "name": "broken inside",
-        "artist": "im sorry"
-      },
-      {
-        "name": "Take A Look At The Moon",
-        "artist": "nadiak"
-      },
-      {
-        "name": "Умри если меня не любишь",
-        "artist": "AnimeVibe"
-      },
-      {
-        "name": "How do i run from fear",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "孤 独 的 狗",
-        "artist": "Chisanahana"
-      },
-      {
-        "name": "一个精神病患者的自言自语",
-        "artist": "Azoy"
-      },
-      {
-        "name": "✧ ♥ เ ๓เร ย ร๏ ร๏ ร๏ ๓ยςђ ♥ ✧",
-        "artist": "เђคtє๓yรєlŦ"
-      },
-      {
-        "name": "Night Falls",
-        "artist": "OmenXIII"
-      },
-      {
-        "name": "Drunk and Confused",
-        "artist": "T.E.C."
-      },
-      {
-        "name": "i swear this søng is abøut eating my best friend’s cøøkie (hateful remix)",
-        "artist": "hateful"
-      },
-      {
-        "name": "2 Numb (prod. lilhappylilsad)",
-        "artist": "Poppy Tears"
-      },
-      {
-        "name": "对 不 起 。Wonderful u AGA n3 bootleg",
-        "artist": "眠"
-      },
-      {
-        "name": "Shiver",
-        "artist": "skel"
-      },
-      {
-        "name": "Demons (Ocean remix)",
-        "artist": "Ocean"
-      },
-      {
-        "name": "rockstar ⭐ (prod. cartoon ben)",
-        "artist": "lil hawk boy"
-      },
-      {
-        "name": "Untitled",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "why",
-        "artist": "hdi."
-      },
-      {
-        "name": "PARALYZED",
-        "artist": "Ysoul杨梳媛"
-      },
-      {
-        "name": ":(",
-        "artist": "whtvs"
-      },
-      {
-        "name": "hurt",
-        "artist": "X ACTO"
-      },
-      {
-        "name": "poor decisions (szunaka remix)",
-        "artist": "szunaka"
-      },
-      {
-        "name": "Sinking",
-        "artist": "Feverkin"
-      },
-      {
-        "name": "~phone call pt.2~",
-        "artist": "lando!"
-      },
-      {
-        "name": "You Promised You'd Never Forget Me",
-        "artist": "Senbeii"
-      },
-      {
-        "name": "letdown (David Keane remix)",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "All Of This",
-        "artist": "Late June"
-      },
-      {
-        "name": "One Is Glad to Be of Service",
-        "artist": "April Rain"
-      },
-      {
-        "name": "ＳＡＦＥ",
-        "artist": "TRA$H"
-      },
-      {
-        "name": "mistruth",
-        "artist": "E e v e e"
-      },
-      {
-        "name": "pallida",
-        "artist": "HVRXLD"
-      },
-      {
-        "name": "i swear this søng is abøut eating øut my best friend's Pussy",
-        "artist": "cøzybøy"
-      },
-      {
-        "name": "yvonne",
-        "artist": "VAGUE003"
-      },
-      {
-        "name": "A Night On the Cliff",
-        "artist": "nadiak"
-      },
-      {
-        "name": "Black Sheep",
-        "artist": "OmenXIII"
-      },
-      {
-        "name": "Verytired",
-        "artist": "Foxwedding"
-      },
-      {
-        "name": "生而为人 我很抱歉",
-        "artist": "邵言"
-      },
-      {
-        "name": "from the start",
-        "artist": "Cabe"
-      },
-      {
-        "name": "Reverence",
-        "artist": "nadiak"
-      },
-      {
-        "name": "Along The Bay",
-        "artist": "nadiak"
-      },
-      {
-        "name": "summer rain",
-        "artist": "£L"
-      },
-      {
-        "name": "C O L D",
-        "artist": "4-ever"
-      },
-      {
-        "name": "♡",
-        "artist": "WJCTION"
-      },
-      {
-        "name": "le$u",
-        "artist": "Spyde"
-      },
-      {
-        "name": "Tied To Our Words",
-        "artist": "Late June"
-      },
-      {
-        "name": "i don't want to be alone",
-        "artist": "beccawut"
-      },
-      {
-        "name": "你❤是✿需要▉我❤的，对么☹☹☹",
-        "artist": "Robins Lu"
-      },
-      {
-        "name": "ho scritto questa canzone per te ( Chebit remix)",
-        "artist": "Chebit"
-      },
-      {
-        "name": "someday, somewhere",
-        "artist": "Cat naps"
-      },
-      {
-        "name": "i think , i luv u so much",
-        "artist": "marlboro."
-      },
-      {
-        "name": "如果不能见你最后一面，那至少让我用自己的方式，纪念你",
-        "artist": "秦才淞"
-      },
-      {
-        "name": "Thank You for Everything...",
-        "artist": "depression"
-      },
-      {
-        "name": "bae of the year",
-        "artist": "8THENTITY"
-      },
-      {
-        "name": "Sorry (Prod by. TREX & Poe^)",
-        "artist": "Drk Blade"
-      },
-      {
-        "name": "f i r s t (flip by dustin ngo 春風 X thdc )",
-        "artist": "hairan"
-      },
-      {
-        "name": "短发少女",
-        "artist": "早西"
-      },
-      {
-        "name": "lie to me",
-        "artist": "Lil Yung Pharaoh"
-      },
-      {
-        "name": "You",
-        "artist": "TRA$H"
-      },
-      {
-        "name": "Minutki begut",
-        "artist": "DeepCosmo"
-      },
-      {
-        "name": "silk",
-        "artist": "killstation"
-      },
-      {
-        "name": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ ㅤㅤㅤㅤㅤㅤㅤㅤㅤ◽ㅤ",
-        "artist": "Jetson"
-      },
-      {
-        "name": "us",
-        "artist": "4oot"
-      },
-      {
-        "name": "angel",
-        "artist": "karson"
-      },
-      {
-        "name": "come and see me in marvin's room i've been thinking bout a power trip (prod. ULICA)",
-        "artist": "lanie ❀"
-      },
-      {
-        "name": "Loading",
-        "artist": "Hazy Nights"
-      },
-      {
-        "name": "a letter to the living",
-        "artist": "Color Hue"
-      },
-      {
-        "name": "am i wasting my time? (prod.1800entity)",
-        "artist": "Swoon."
-      },
-      {
-        "name": "heartbeating (not referencing a pulse)",
-        "artist": "WRAITH"
-      },
-      {
-        "name": "stop Being sad pSexy",
-        "artist": "Yung skeleton"
-      },
-      {
-        "name": "never met",
-        "artist": "ℋoly ℳountain"
-      },
-      {
-        "name": "wanna dιe (prod. noтнιngleғт)",
-        "artist": "lιl glacιer"
-      },
-      {
-        "name": "By My Side",
-        "artist": "Lund"
-      },
-      {
-        "name": "your eyes shine like the stars at night",
-        "artist": "Shinobi"
-      },
-      {
-        "name": "Already Dead",
-        "artist": "Corbin"
-      },
-      {
-        "name": "i am sick, i am tired (soko cover)",
-        "artist": "Lilith Is Gone"
-      },
-      {
-        "name": "コールド",
-        "artist": "Arzon"
-      },
-      {
-        "name": "IfYoureGoingToSpew,SpewIntoThis",
-        "artist": "Bones"
-      },
-      {
-        "name": "♡n ssıɯ ʎllɐǝɹ ı",
-        "artist": "FAT TIGER"
-      },
-      {
-        "name": "I WANT LOVE OR DEATH",
-        "artist": "W/"
-      },
-      {
-        "name": "Frankee",
-        "artist": "Sarcastic Sounds"
-      },
-      {
-        "name": "dont tear ma heart. ma achey breaky heart",
-        "artist": "Parkinson White"
-      },
-      {
-        "name": "Someday, Sometime",
-        "artist": "christianalexnder"
-      },
-      {
-        "name": "☂",
-        "artist": "COSMASTLY"
-      },
-      {
-        "name": "n o s t a l g i a (Prod. Mirr.e)",
-        "artist": "TRENDEN"
-      },
-      {
-        "name": "until we meet again",
-        "artist": "frander"
-      },
-      {
-        "name": "Numb (Prod. Leaf)",
-        "artist": "onlyevva"
-      },
-      {
-        "name": "i dont want to die",
-        "artist": "sanity"
-      },
-      {
-        "name": "Bedford Falls",
-        "artist": "ford"
-      },
-      {
-        "name": "断线",
-        "artist": "Shang"
-      },
-      {
-        "name": "it's ok, you're ok",
-        "artist": "bonjr"
-      },
-      {
-        "name": "Before You Leave",
-        "artist": "nadiak"
-      },
-      {
-        "name": "Curses",
-        "artist": "☠JAYYEAH☠"
-      },
-      {
-        "name": "we had all the time..",
-        "artist": "killedmyself"
-      },
-      {
-        "name": "Быть рядом.",
-        "artist": "MΣ$†ΛMN ΣKCПØNΛ†"
-      },
-      {
-        "name": "Same Love",
-        "artist": "kaio."
-      },
-      {
-        "name": "my friend",
-        "artist": "NKOHA"
-      },
-      {
-        "name": "Sorrow",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "revealing hope",
-        "artist": "killedmyself"
-      },
-      {
-        "name": "She Said",
-        "artist": "inbirth"
-      },
-      {
-        "name": "if i could i would feel nothing",
-        "artist": "Blackbear"
-      },
-      {
-        "name": "Family",
-        "artist": "OmenXIII"
-      },
-      {
-        "name": "dancing in the dark (prod. burnt boy)",
-        "artist": "fm !"
-      },
-      {
-        "name": "i hate being awake like this",
-        "artist": "leaveɯǝalone"
-      },
-      {
-        "name": "pls dont get mad @ me (prod. inochi)",
-        "artist": "♡ akira ♡"
-      },
-      {
-        "name": "I Wrote This Song 4 U (Prod. Killedmyself)",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "When We Were Younger",
-        "artist": "VELVETEARS"
-      },
-      {
-        "name": "hold me together",
-        "artist": "węępingbęll"
-      },
-      {
-        "name": "still numb",
-        "artist": "killedmyself"
-      },
-      {
-        "name": "drowning in myself",
-        "artist": "Lil Yung Pharaoh"
-      },
-      {
-        "name": "Приезжай,будем обниматься",
-        "artist": "MΣ$†ΛMN ΣKCПØNΛ†"
-      },
-      {
-        "name": "Insomnia (prod. Garrett & Oilcolor)",
-        "artist": "OmenXIII"
-      },
-      {
-        "name": "Chocolate Covered Strawberries",
-        "artist": "GG NEEKS"
-      },
-      {
-        "name": "KARMA",
-        "artist": "twentyseasons"
-      },
-      {
-        "name": "i wanna go (Prod. aaron )",
-        "artist": "ivri"
-      },
-      {
-        "name": "shame( bogussama bootleg)",
-        "artist": "bogussama"
-      },
-      {
-        "name": "Letdown",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "Мимими",
-        "artist": "Dramma"
-      },
-      {
-        "name": "crying without knowing why",
-        "artist": "elijah who"
-      },
-      {
-        "name": "Dead Dreams",
-        "artist": "Sarcastic Sounds"
-      },
-      {
-        "name": "guilt",
-        "artist": "NEO3000"
-      },
-      {
-        "name": "Full Metal",
-        "artist": "White Shinobi"
-      },
-      {
-        "name": "别哭(don't cry)",
-        "artist": "allenvee"
-      },
-      {
-        "name": "WhiteTrashMidwesternTown",
-        "artist": "Bones"
-      },
-      {
-        "name": "summertime '14 (prod. savior)",
-        "artist": "CORPSE"
-      },
-      {
-        "name": "Make Believe (Prod. Sid White)",
-        "artist": "Rami✰"
-      },
-      {
-        "name": "baccpakk (prod. by flamingo bill)",
-        "artist": "ivan's grey"
-      },
-      {
-        "name": "I knew this was coming (prod. killedmyself)",
-        "artist": "deadbeatteen"
-      },
-      {
-        "name": "I Really Wrote This for You",
-        "artist": "/KXLD."
-      },
-      {
-        "name": "forgive me",
-        "artist": "nohidea."
-      },
-      {
-        "name": "I Don't Know Why You Think That",
-        "artist": "depression"
-      },
-      {
-        "name": "THE REAPER IN MY HEAD",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "i don't know how to love",
-        "artist": "Scum"
-      },
-      {
-        "name": "Echoes In A Hollow Skull",
-        "artist": "frander"
-      },
-      {
-        "name": "Parking Lot",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "Sedation (prod. by glitter)",
-        "artist": "✶ YUNG ✞ DEATH ✶"
-      },
-      {
-        "name": "unmarked grave",
-        "artist": "never,forever."
-      },
-      {
-        "name": "grey is my death",
-        "artist": "deAd"
-      },
-      {
-        "name": "This Must Be Hell (prod. Tau)",
-        "artist": "VELVETEARS"
-      },
-      {
-        "name": "you cried as loud as you could but nobody heard",
-        "artist": "WRAITH"
-      },
-      {
-        "name": "wooden home",
-        "artist": "never,forever."
-      },
-      {
-        "name": "i need u",
-        "artist": "BØJET"
-      },
-      {
-        "name": "I AM A LIAR",
-        "artist": "tothegood"
-      },
-      {
-        "name": "wooden home (tothegood flip)",
-        "artist": "tothegood"
-      },
-      {
-        "name": "oh, i forget",
-        "artist": "Ku Plag"
-      },
-      {
-        "name": "infinity II",
-        "artist": "Kanashi"
-      },
-      {
-        "name": "turn back time",
-        "artist": "Autumn Leaves"
-      },
-      {
-        "name": "SCREAMING INSIDE",
-        "artist": "GONE42DAY"
-      },
-      {
-        "name": "Twenty Something",
-        "artist": "nothing,nowhere."
-      },
-      {
-        "name": "Sleeping Beauty",
-        "artist": "YvngCrow"
-      },
-      {
-        "name": "4AM",
-        "artist": "familypet"
-      },
-      {
-        "name": "Sheet Forts (prod. Oilcolor)",
-        "artist": "VELVETEARS"
-      },
-      {
-        "name": "Haunt U (Prod.Mysticphonk)",
-        "artist": "Lil Peep"
-      },
-      {
-        "name": "wherever you go",
-        "artist": "YvngCrow"
-      },
-      {
-        "name": "将死之时掩以水门汀",
-        "artist": "缺省"
-      },
-      {
-        "name": "standing barefoot at your side",
-        "artist": "hateful"
-      },
-      {
-        "name": "i'm sad",
-        "artist": "White Shinobi"
-      },
-      {
-        "name": "YYZ",
-        "artist": "Blaise Moore"
-      },
-      {
-        "name": "angel",
-        "artist": "loathed"
-      },
-      {
-        "name": "weapon",
-        "artist": "inbirth"
-      },
-      {
-        "name": "everything happens for a reason",
-        "artist": "leaveɯǝalone"
-      },
-      {
-        "name": "**** life, **** feelings",
-        "artist": "White Shinobi"
-      },
-      {
-        "name": "ｓａｉｋａ",
-        "artist": "cight"
-      },
-      {
-        "name": "Poacher's Pride",
-        "artist": "Nicole Dollanganger"
-      },
-      {
-        "name": "Isawyouupstairswithaknife",
-        "artist": "arthrn"
-      },
-      {
-        "name": "miserable",
-        "artist": "dawson"
-      },
-      {
-        "name": "tenacious",
-        "artist": "anthoknee"
-      },
-      {
-        "name": "Bubbles (prod.haruhi)",
-        "artist": "£L"
-      },
-      {
-        "name": "i dont wanna die",
-        "artist": "Elliot Ede"
-      },
-      {
-        "name": "gangsta",
-        "artist": "lolikingx"
-      },
-      {
-        "name": "By Myself",
-        "artist": "Kanashi"
-      },
-      {
-        "name": "liftoff",
-        "artist": "fm !"
-      },
-      {
-        "name": "her",
-        "artist": "savior"
-      },
-      {
-        "name": "they'll like me when i'm sick",
-        "artist": "flatsound"
-      },
-      {
-        "name": "jackson",
-        "artist": "AVALON"
-      },
-      {
-        "name": "u exist out of my dreams",
-        "artist": "aleksia"
-      },
-      {
-        "name": "LEAVING THIS WORLD BEHIND",
-        "artist": "MIMI OCEAN"
-      },
-      {
-        "name": "чему здесь праздновать?",
-        "artist": "Вышел Покурить"
-      },
-      {
-        "name": "song 4 U",
-        "artist": "JLZ"
-      },
-      {
-        "name": "Reverie",
-        "artist": "Isaac Gracie"
-      },
-      {
-        "name": "Until",
-        "artist": "Lotte Kestner"
-      },
-      {
-        "name": "someday we'll be together again",
-        "artist": "bonjr"
-      },
-      {
-        "name": "The day I said her goodbye at the subway station",
-        "artist": "KDELL"
-      },
-      {
-        "name": "пожалуйста, не сегодня",
-        "artist": "птичий бит"
-      },
-      {
-        "name": "rebirth",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "hey friend.",
-        "artist": "KITSU"
-      },
-      {
-        "name": "Chains",
-        "artist": "DIVINE ✧"
-      },
-      {
-        "name": "ghosts",
-        "artist": "Shinigami"
-      },
-      {
-        "name": "Sad",
-        "artist": "iamnotshane"
-      },
-      {
-        "name": "nah its not too bad",
-        "artist": "mathbonus"
-      },
-      {
-        "name": "dreams in my head (anika moa cover)",
-        "artist": "Lontalius"
-      },
-      {
-        "name": "Tell me something",
-        "artist": "blind.scream"
-      },
-      {
-        "name": "i miss u",
-        "artist": "Shinigami"
-      },
-      {
-        "name": "can i walk you home one last time",
-        "artist": "RAHK GEE"
-      },
-      {
-        "name": "VoidLife{ReturnNull;}",
-        "artist": ".ISΘ"
-      },
-      {
-        "name": "im just me",
-        "artist": "foreign forest"
-      },
-      {
-        "name": "Stay Close To Me",
-        "artist": "Late June"
-      },
-      {
-        "name": "SPIRITS",
-        "artist": "kuudere"
-      },
-      {
-        "name": "Pray4Me",
-        "artist": "Le Play"
-      },
-      {
-        "name": "between us two",
-        "artist": "aleksia"
-      },
-      {
-        "name": "I WROTE THIS SONG 4 U (LIL HEARTBREAK REMIX)",
-        "artist": "lil heartbreak"
-      },
-      {
-        "name": "Spyro",
-        "artist": "Cold Hart"
-      },
-      {
-        "name": "Sleep Through Summer (prod by KillGil)",
-        "artist": "Cold Hart"
-      },
-      {
-        "name": "I Guess This Is It",
-        "artist": "DeCrescio"
-      },
-      {
-        "name": "Careless Cares",
-        "artist": "Cresce"
-      },
-      {
-        "name": "Medicine (prod.Felony Kid)",
-        "artist": "Yung Lazarus X"
-      },
-      {
-        "name": ": (",
-        "artist": "SLIGHT"
-      },
-      {
-        "name": "CARDS",
-        "artist": "VIOLET"
-      },
-      {
-        "name": "bb blue ( king krule cover )",
-        "artist": "emotional 001"
-      },
-      {
-        "name": "I, Drowned (Prod. Chromakey)",
-        "artist": "JAKE COOLEY"
-      },
-      {
-        "name": "audio of a broken heart",
-        "artist": "WRAITH"
-      },
-      {
-        "name": "JEWFY SAMPLE CHALLENGE",
-        "artist": "lil heartbreak"
-      },
-      {
-        "name": "pretty ugly",
-        "artist": "convolk"
-      },
-      {
-        "name": "roaming in thought",
-        "artist": "Combination Lock"
-      },
-      {
-        "name": "Your Backyard",
-        "artist": "familypet"
-      },
-      {
-        "name": "TEETH",
-        "artist": "noheart"
-      },
-      {
-        "name": "sole",
-        "artist": "E e v e e"
-      },
-      {
-        "name": "say you love me",
-        "artist": "T R Λ P C O D E"
-      },
-      {
-        "name": "Hard to accept",
-        "artist": "king christian"
-      },
-      {
-        "name": "please don't leave (prod. nciku x never since)",
-        "artist": "Scum"
-      },
-      {
-        "name": "a cautious ****ing sound",
-        "artist": "Drip-133"
-      },
-      {
-        "name": "Like Chains (prod by killgil)",
-        "artist": "Cold Hart"
-      },
-      {
-        "name": "for you .",
-        "artist": "kyræhle"
-      },
-      {
-        "name": "take care",
-        "artist": "solus"
-      },
-      {
-        "name": "Don't wake me up",
-        "artist": "loathed"
-      },
-      {
-        "name": "I DONT UNDERSTAND YOU",
-        "artist": "kuudere"
-      },
-      {
-        "name": "the sunshine doesn't love you.",
-        "artist": "tyler on the track"
-      },
-      {
-        "name": "i hate you",
-        "artist": "yung tengu"
-      },
-      {
-        "name": "Black Tape For Blue Girls",
-        "artist": "Ned Bundy"
-      },
-      {
-        "name": "Youcouldhavewarnedme (prod. by depression)",
-        "artist": "Siren"
-      },
-      {
-        "name": "You'reNotSorry",
-        "artist": ".ISΘ"
-      },
-      {
-        "name": "i won't let you go",
-        "artist": "T R Λ P C O D E"
-      },
-      {
-        "name": "loren",
-        "artist": "loathed"
-      },
-      {
-        "name": "the last thing I'd ever do",
-        "artist": "lnly"
-      },
-      {
-        "name": "Shoulder 2 Cry On (Prod. BOY FLOSS)",
-        "artist": "Skye Fiore"
-      },
-      {
-        "name": "Without you cover remix",
-        "artist": "jssx"
-      },
-      {
-        "name": "Too fast (Prod. fats'e)",
-        "artist": "Scum"
-      },
-      {
-        "name": "Alone (Peod. nedarb)",
-        "artist": "Lil Lotus"
-      },
-      {
-        "name": "†яµร† เรรµэร",
-        "artist": "lil art project"
-      },
-      {
-        "name": "But This Is The End (Prod. Purpdogg)",
-        "artist": "OmenXIII"
-      },
-      {
-        "name": "idk how to kill myself",
-        "artist": "Yunggoth"
-      },
-      {
-        "name": "S a d n e s s",
-        "artist": "Keuz"
-      },
-      {
-        "name": "Conversations",
-        "artist": "Thrupence"
-      },
-      {
-        "name": "When U Feel Alone (07/04/2015)",
-        "artist": "H I D E A W A Y"
-      },
-      {
-        "name": "blush",
-        "artist": "BEAUBOY ROSE"
-      },
-      {
-        "name": "Isolated.",
-        "artist": "ᴉɯɐƃᴉuᴉɥs"
-      },
-      {
-        "name": "you've done nothing to help.",
-        "artist": "sadface :("
-      },
-      {
-        "name": "Loch Ness",
-        "artist": "Gizmo"
-      },
-      {
-        "name": "ｗｈｅｒｅ ｗｅｒｅ ｙｏｕ．",
-        "artist": "ｔ ｅｅｎ ｐｒｅｇｎａｎｃｙ．"
-      },
-      {
-        "name": "She goes",
-        "artist": "EloimMeth"
-      },
-      {
-        "name": "LOST MYSELF",
-        "artist": "TAZ"
-      },
-      {
-        "name": "lonely girl with a lot of dreams",
-        "artist": "lightbody"
-      },
-      {
-        "name": "JULIET",
-        "artist": "kuudere"
-      },
-      {
-        "name": "vhs & chill",
-        "artist": "YvngCrow"
-      },
-      {
-        "name": "Goodbye",
-        "artist": "T R Λ P C O D E"
-      },
-      {
-        "name": "WastingAwayWaiting4u (Prod.by consumed)",
-        "artist": "Angelsik"
-      },
-      {
-        "name": "lilium666",
-        "artist": "sa$ori"
-      },
-      {
-        "name": "ты любил её ?!",
-        "artist": "dalebotbeats"
-      },
-      {
-        "name": "The Moment",
-        "artist": "Elysian Fields"
-      },
-      {
-        "name": "Runaway",
-        "artist": "YUME"
-      },
-      {
-        "name": "x possessed by charms x",
-        "artist": "lil skil"
-      },
-      {
-        "name": "hey now you know how i feel (feat. gotgash)",
-        "artist": "skean"
-      },
-      {
-        "name": "Целуй Меня",
-        "artist": "mtmrfz"
-      },
-      {
-        "name": "dontbreakmyheart, tearmeapart",
-        "artist": "C☯nstant"
-      },
-      {
-        "name": "i'm so sorry",
-        "artist": "dawson"
-      },
-      {
-        "name": "I Love You",
-        "artist": "Yung Lazarus X"
-      },
-      {
-        "name": "without u",
-        "artist": "lil silv"
-      },
-      {
-        "name": "midnight",
-        "artist": "Funeral"
-      },
-      {
-        "name": "ModdestGoals x TillTheVulturesCome (Trill Shox Slowed & Throwed)",
-        "artist": "Trill Shox"
-      },
-      {
-        "name": "BABY YOU THE ICE TO MY STARS",
-        "artist": "LILG$TAR"
-      },
-      {
-        "name": "♬☹☁SVD GIRL☁☹♬",
-        "artist": "WitekProdukcje"
-      },
-      {
-        "name": "Leaving",
-        "artist": "Wade"
-      },
-      {
-        "name": "bubblegum.",
-        "artist": "barnes blvd."
-      },
-      {
-        "name": "all i ever see is you",
-        "artist": "never since"
-      },
-      {
-        "name": "i want to be with you",
-        "artist": "REASON"
-      },
-      {
-        "name": "Golden Boy",
-        "artist": "Lil Lotus"
-      },
-      {
-        "name": ";(",
-        "artist": "tamagotchi"
-      },
-      {
-        "name": "who hurt you?",
-        "artist": "savior"
-      },
-      {
-        "name": "i wanted to cry, i wanted to die.",
-        "artist": "never,forever."
-      },
-      {
-        "name": "Lemonade",
-        "artist": "CocoRosie"
-      },
-      {
-        "name": "When",
-        "artist": "Elysian Fields"
-      },
-      {
-        "name": "over",
-        "artist": "Rah"
-      },
-      {
-        "name": "Some Things Are Never Changes",
-        "artist": "depression"
-      },
-      {
-        "name": "hear my hurt, heal my heart",
-        "artist": "babywings ☤"
-      },
-      {
-        "name": "Love You Then (prod. Foxwedding)",
-        "artist": "Horse Head"
-      },
-      {
-        "name": "hey i miss u",
-        "artist": "jittah"
-      },
-      {
-        "name": "hopeless.",
-        "artist": "lildeath"
-      },
-      {
-        "name": "Warmth In Winter",
-        "artist": "Late June"
-      },
-      {
-        "name": "I'm Used To That",
-        "artist": "Horse Head"
-      },
-      {
-        "name": "BuriedAlive (prod. by killedmyself)",
-        "artist": "Angelsik"
-      },
-      {
-        "name": "NOI$E",
-        "artist": "SoLonely"
-      },
-      {
-        "name": "miss u",
-        "artist": "jssx"
-      },
-      {
-        "name": "and finally i understand, its ok to be scared",
-        "artist": "smiletomaself"
-      },
-      {
-        "name": "for U ♥",
-        "artist": "Anton Ewald"
-      },
-      {
-        "name": "hy",
-        "artist": "Save Me"
-      },
-      {
-        "name": "super",
-        "artist": "inochi"
-      },
-      {
-        "name": "the breakup (prod. harvest)",
-        "artist": "deadbeatteen"
-      },
-      {
-        "name": "Gone Friend",
-        "artist": "Esaia"
-      },
-      {
-        "name": "a fever, breaking",
-        "artist": "GRXXXVES"
-      },
-      {
-        "name": "MUTILATION",
-        "artist": "MAGE"
-      },
-      {
-        "name": "i know you're probably not home (morgue remix)",
-        "artist": "VAGUE003"
-      },
-      {
-        "name": "Mmiseryy (Prod. killedmyself)",
-        "artist": "Ggravee"
-      },
-      {
-        "name": "Oh My",
-        "artist": "CHVLL"
-      },
-      {
-        "name": "im srry..",
-        "artist": "swvde."
-      },
-      {
-        "name": "its a long way (prod GREAF)",
-        "artist": "barren"
-      },
-      {
-        "name": "cant believe my eyes",
-        "artist": "bao nhi"
-      },
-      {
-        "name": "i yelled back when i heard thunder",
-        "artist": "txmmy two"
-      },
-      {
-        "name": "rock with you",
-        "artist": "lzrs"
-      },
-      {
-        "name": "nЄv</3r",
-        "artist": "ЄβƬcσωвσy"
-      },
-      {
-        "name": "rerouting",
-        "artist": "deadbeatteen"
-      },
-      {
-        "name": "Wait",
-        "artist": "leeek"
-      },
-      {
-        "name": "badsituation",
-        "artist": "lil sin"
-      },
-      {
-        "name": "hollow (Prod. Foliage)",
-        "artist": "Lilith Is Gone"
-      },
-      {
-        "name": "alone with you",
-        "artist": "White Shinobi"
-      },
-      {
-        "name": "I'll leave if you want",
-        "artist": "deadbeatteen"
-      },
-      {
-        "name": "No Reason",
-        "artist": "VELVETEARS"
-      },
-      {
-        "name": "(Don't) Follow me",
-        "artist": "DEADISON"
-      },
-      {
-        "name": "you don't know whats best for me",
-        "artist": "noheart"
-      },
-      {
-        "name": "Back",
-        "artist": "Karamel Kel"
-      },
-      {
-        "name": "Empty <3",
-        "artist": "HeartBrokenKid<3"
-      },
-      {
-        "name": "It's Cold Out, So Baby Take My Coat",
-        "artist": "Lowly God"
-      },
-      {
-        "name": "tears.wav",
-        "artist": "Back Alley Kat"
-      },
-      {
-        "name": "Lower,Than,Before",
-        "artist": "GRAVEN"
-      },
-      {
-        "name": "broken wings",
-        "artist": "Lux La Fuego"
-      },
-      {
-        "name": "kerosene",
-        "artist": "never,forever."
-      },
-      {
-        "name": "Cold World (prod. hector vae)",
-        "artist": "BRENNAN SAVAGE"
-      },
-      {
-        "name": "Pure",
-        "artist": "Rich Beatz"
-      },
-      {
-        "name": "amelia.",
-        "artist": "mikegs"
-      },
-      {
-        "name": "I've been doing well",
-        "artist": "EloimMeth"
-      },
-      {
-        "name": "dilucida",
-        "artist": "killstation"
-      },
-      {
-        "name": "see the light",
-        "artist": "akiaura"
-      },
-      {
-        "name": "I make her feel special when I **** her sober",
-        "artist": "Poppy Tears"
-      },
-      {
-        "name": "you said okay",
-        "artist": "flatsound"
-      },
-      {
-        "name": "measured to you",
-        "artist": "♰Yung Heart♰"
-      },
-      {
-        "name": "I'll Follow You",
-        "artist": "internetBoi"
-      },
-      {
-        "name": "Yet Again",
-        "artist": "Yung Lazarus X"
-      },
-      {
-        "name": "Get High",
-        "artist": "DEATH+"
-      },
-      {
-        "name": "ǝɔɐld ǝɥʇ ɥʇᴉʍ ǝuop ǝʌ,noʎ ʇɐɥʍ ǝʌol",
-        "artist": "ʎpoqou"
-      },
-      {
-        "name": "welt",
-        "artist": "onlyevva"
-      },
-      {
-        "name": "ＦＡＬＬＩＮＧ ＩＮＴＯ Ａ ＤＲＥＡＭ",
-        "artist": "haardtek"
-      },
-      {
-        "name": "p r o m i s e",
-        "artist": "NATIVE"
-      },
-      {
-        "name": "Ƥ ɑ ɪ ɳ",
-        "artist": "4-ever"
-      },
-      {
-        "name": "the river kissed me goodnight",
-        "artist": "White Shinobi"
-      },
-      {
-        "name": "Raw Version Freestyle",
-        "artist": "LiL BO WEEP"
-      },
-      {
-        "name": "i hope that means forever",
-        "artist": "kind kid"
-      },
-      {
-        "name": "whatgreateyesyouhave",
-        "artist": "Surrenderdorothy"
-      },
-      {
-        "name": "Before you I was fine",
-        "artist": "blind.scream"
-      },
-      {
-        "name": "Codeine Crystals",
-        "artist": "cLouT CoHeN"
-      },
-      {
-        "name": "haunt u",
-        "artist": "Lil Peep"
-      },
-      {
-        "name": "You' re Leaving Already",
-        "artist": "Forgotten Frames"
-      },
-      {
-        "name": "SHAWTY HML III",
-        "artist": "♡GOLDENUZI♡"
+        "name": "孤独青年自救手册Demo",
+        "artist": "郁欢"
       }
     ]
   }

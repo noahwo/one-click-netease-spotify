@@ -23,11 +23,11 @@ const dev = false; // For dev purpose, codeflow would differ for tesing purpose
 async function fetchNeteasePlaylists(USER_ID) {
   try {
     const response = await fetch(
-      `${NE_API}/user/playlist?uid=${USER_ID}&limit=30&offset=0`
+      `${NE_API}/user/playlist?uid=${USER_ID}&limit=1&offset=0`
     );
     const received_obj = await response.json();
     const data = received_obj.playlist;
-    console.log("Receiving all playlists...");
+    console.log("[INFO] Receiving all playlists...");
 
     const simplifiedPlaylist = data.map(({ name, trackCount, id }) => ({
       name,
@@ -35,9 +35,9 @@ async function fetchNeteasePlaylists(USER_ID) {
       id,
     }));
     console.log(
-      `Raw data contains ${simplifiedPlaylist.length} playlists. Which are:`
+      `[INFO] Raw data contains ${simplifiedPlaylist.length} playlists. Which are:`
     );
-    simplifiedPlaylist.forEach((item) => console.log(`\t`, item.name));
+    simplifiedPlaylist.forEach((item) => console.log(`\t `, item.name));
 
     // NOTE: You can define filters to exclude certain playlists, for me i already imported liked music in Netease, and labeled previously imported list with a "-" prefix.
     let filteredPlaylist = [];
@@ -47,10 +47,10 @@ async function fetchNeteasePlaylists(USER_ID) {
           !item.name.startsWith("-") && !item.name.endsWith("喜欢的音乐")
       );
     } else {
-      filteredPlaylist = simplifiedPlaylist;
+      filteredPlaylist = await simplifiedPlaylist;
     }
     pl_count = filteredPlaylist.length;
-    console.log(`Got ${filteredPlaylist.length} final playlists.`);
+    console.log(`[INFO] Got ${filteredPlaylist.length} final playlists.`);
     return filteredPlaylist;
   } catch (err) {
     console.error(err);
@@ -99,9 +99,9 @@ async function collectPlaylists() {
   for (let i = 0; i < playlists.length; i += 1) {
     const p = playlists[i];
     console.log(
-      `Fetching songs from list ${i + 1}/${pl_count}: [${p.name}], which has ${
-        p.trackCount
-      } songs.`
+      `\t[INFO] Fetching songs from list ${i + 1}/${pl_count}: [${
+        p.name
+      }], which has ${p.trackCount} songs.`
     );
     const songs = await fetchAllSongsFrom163Playlist(p.id, p.trackCount);
     p_lists.push({
@@ -122,7 +122,7 @@ async function collectPlaylists() {
     JSON.stringify(p_lists, null, 2),
     (err) => {
       if (err) throw err;
-      console.log("Data written to file.");
+      console.log("[INFO] Data written to file.");
     }
   );
 }
@@ -135,6 +135,8 @@ async function collectPlaylists() {
  * @returns {Object} Response data
  */
 async function fetchWebApi(endpoint, method, body) {
+  console.log(`[INFO] Encoded endpoint: ${endpoint}`);
+
   try {
     const res = await fetch(`https://api.spotify.com/${endpoint}`, {
       headers: {
@@ -144,14 +146,15 @@ async function fetchWebApi(endpoint, method, body) {
       body: JSON.stringify(body),
     });
     // console.log(res);
+    console.log(res);
 
     if (!res.ok) {
       // Check if the response status code is not OK (200-299)
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      throw new Error(`HTTP error! Status: ${res.status}`);
     }
     return await res.json();
   } catch (error) {
-    console.error("Error fetching data: ", error);
+    console.error("[ERROR] Error fetching data: ", error);
     // Handle errors or rethrow them if necessary
     return null; // Or rethrow, depends on your error handling strategy
   }
@@ -166,14 +169,20 @@ async function fetchWebApi(endpoint, method, body) {
 async function searchSong(name, artist) {
   let song_name = name.replace(/ /g, "%2520");
   let song_artist = artist.replace(/ /g, "%2520");
+  console.log(`[INFO] Searching for ${song_name} - ${song_artist}...`);
 
   let returned_whole = await fetchWebApi(
-    `v1/search?q=remaster%2520track%3A${song_name}%2520artist%3A${song_artist}&type=track&market=${COUNTRY_CODE}&limit=20`,
+    `v1/search?q=remaster%2520track%3A${encodeURIComponent(
+      song_name
+    )}%2520artist%3A${encodeURIComponent(
+      song_artist
+    )}&type=track&market=${COUNTRY_CODE}&limit=10`,
     "GET"
   );
 
   // let returned_track_object = returned_whole.tracks;
   // console.log(returned_track_object);
+  console.log(returned_whole);
 
   let returned_item_list = returned_whole.tracks.items;
 
@@ -219,8 +228,8 @@ async function getUriForTracks(tracks) {
   let found_tracks = [];
   let not_found_tracks = [];
   for (let i = 0; i < tracks.length; i += 1) {
-    const s = tracks[i];
-    const search_result = await searchSong(s.name, s.artist);
+    let s = tracks[i];
+    let search_result = await searchSong(s.name, s.artist);
     // console.log(search_result);
 
     if (search_result === null) {
@@ -262,9 +271,22 @@ async function main() {
       // console.log(data);
     })
   );
+  // const final_playlists = await readFile(
+  //   "fetched_list.json",
+  //   "utf8",
+  //   (err, data) => {
+  //     if (err) {
+  //       console.error(err);
+  //       return;
+  //     }
+  //     // console.log(data);
+  //   }
+  // );
 
   // Test only the first playlist form lists json
   const p = final_playlists[0]; // FORMAT -> p: {ne_id, name, trackCount, songs[]}
+  console.log(p.songs);
+
   const total = p.songs.length; // taking first playlist as example
 
   let [found_uris, not_found_uris] = [];
@@ -310,7 +332,7 @@ async function main() {
   if (not_found_uris.length != 0) {
     let failed_songs = "";
     not_found_uris.forEach(
-      (element) => (failed_songs += `[${element.name} - ${element.artist}],`)
+      (element) => (failed_songs += ` [${element.name} - ${element.artist}],`)
     );
     failed_songs = failed_songs.substring(0, failed_songs.length - 1);
 

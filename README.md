@@ -39,6 +39,8 @@ you can enter this page by clicking the up-left corner icon **[Spotify for Devel
 ![alt text](images/image2.png)
 The `token` variable is what we want, copy the full string to `.env`, e.g., `ACCESS_TOKEN='******your-token-string******'`.
 
+> NOTE: This token expires in 1 hour, you need to refresh it manually.
+
 ### Run the program
 
 ...
@@ -63,4 +65,4 @@ filteredPlaylist = await simplifiedPlaylist.filter(
 );
 ```
 
-> P.S. Due to the 300 character limit of the playlist description in Spotify, the failure of transition may not be complete, you can check terminal output for missing information.
+> P.S. Due to the 300 character limit of the playlist description in Spotify, the failed song transitions info in playlist description may not be complete, you can check terminal output for missing information.

@@ -53,7 +53,6 @@ function updateEnvFile(newAccessToken) {
   });
 }
 
-// Example usage (replace 'your-client-id' and 'your-client-secret' with actual credentials)
 getCredentialToken(CLIENT_ID, CLIENT_SECRET)
   .then((token) => {
     console.log("Token:", token);

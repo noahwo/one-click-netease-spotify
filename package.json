@@ -17,6 +17,7 @@
     "console": "^0.7.2",
     "dotenv": "^16.4.5",
     "fs": "^0.0.2",
-    "neofetch": "^7.1.0"
+    "neofetch": "^7.1.0",
+    "node-fetch": "^3.3.2"
   }
 }

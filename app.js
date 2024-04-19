@@ -293,11 +293,11 @@ async function main() {
   const isValid = await testTokenValidity();
   if (!isValid) {
     console.error(
-      "Invalid Spotify development access token, update your token and retry."
+      "[ERROR] Invalid Spotify development access token, update your token and retry."
     );
     process.exit(1); // Exits with a failure code
   } else {
-    console.log("Your Spotify development access token is valid.");
+    console.log("[INFO] Your Spotify development access token is valid.");
   }
 
   if (!dev) {

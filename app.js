@@ -7,11 +7,10 @@ import { readFile, writeFile } from "fs/promises";
 const NE_API = process.env.NE_API;
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 const USER_ID = process.env.USER_ID;
-const COUNTRY_CODE = "FI";
+const COUNTRY_CODE = process.env.COUNTRY_CODE;
 let pl_count = 0;
 
 const dev = false; // For dev purpose, codeflow would differ for tesing purpose
-const personalised = false;
 
 /**
  * Test the validity of the Spotify access token.
@@ -24,7 +23,6 @@ async function testTokenValidity() {
   try {
     const response = await fetchWebApi(endpoint, method);
     if (response) {
-      console.log("[INFO] Token is valid.");
       return true;
     }
   } catch (error) {
@@ -41,7 +39,7 @@ async function testTokenValidity() {
 async function fetchNeteasePlaylists(USER_ID) {
   try {
     const response = await fetch(
-      `${NE_API}/user/playlist?uid=${USER_ID}&limit=3&offset=0`
+      `${NE_API}/user/playlist?uid=${USER_ID}&limit=29&offset=0`
     );
     const received_obj = await response.json();
     const data = received_obj.playlist;
@@ -59,12 +57,10 @@ async function fetchNeteasePlaylists(USER_ID) {
 
     // NOTE: You can define filters to exclude certain playlists, for me i already imported liked music in Netease, and labeled previously imported list with a "-" prefix.
     let filteredPlaylist = [];
-    if (personalised) {
+    if (dev) {
       filteredPlaylist = await simplifiedPlaylist.filter(
         (item) =>
-          !item.name.startsWith("-") &&
-          !item.name.endsWith("喜欢的音乐") &&
-          !item.name.startsWith("sad")
+          !item.name.startsWith("-") && !item.name.endsWith("喜欢的音乐")
       );
     } else {
       filteredPlaylist = await simplifiedPlaylist;
@@ -300,9 +296,8 @@ async function main() {
     console.log("[INFO] Your Spotify development access token is valid.");
   }
 
-  if (!dev) {
-    await collectPlaylists();
-  }
+  await collectPlaylists();
+
   const final_playlists = JSON.parse(
     await readFile("fetched_list.json", "utf8")
   );
@@ -313,19 +308,7 @@ async function main() {
     console.log(`Processing playlist: ${p.name}`);
     const total = p.songs.length;
 
-    let [found_uris, not_found_uris] = [];
-    if (dev) {
-      // For dev purpose, read example URIs from a file
-      let the_uris = JSON.parse(
-        await readFile("examples/test_track_uris.json", "utf8")
-      );
-      [found_uris, not_found_uris] = [
-        the_uris.found_tracks,
-        the_uris.not_found_tracks,
-      ];
-    } else {
-      [found_uris, not_found_uris] = await getUriForTracks(p.songs);
-    }
+    let [found_uris, not_found_uris] = await getUriForTracks(p.songs);
 
     console.log(
       `[INFO] Found [${found_uris.length}/${total}], Not found [${not_found_uris.length}/${total}].`

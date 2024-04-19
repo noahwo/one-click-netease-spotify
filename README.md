@@ -22,7 +22,13 @@ You can start up the app by:
 node app.js
 ```
 
-Then rename `example.env` to `.env`.
+Then rename `example.env` to `.env`, check your courtry code from https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2, and fill them in the `.env` file.
+
+for example,
+
+```bash
+export COUNTRY_CODE='US'
+```
 
 ### Netease Music side
 
@@ -70,6 +76,8 @@ const response = await fetch(
 
 Around the code below you can modify the filter condition to exclude some playlists you don't wanna import. For me, I already imported Favorite music from Netease, and labeled previously imported playlists with a "-" prefix.
 
+> P.S. Due to the 300 character limit of the playlist description in Spotify, the failed song transitions info in playlist description may not be complete, you can check terminal output for missing information. I would recommend each time you try to import only 3~5 playlists due to their strict limit (cooling time can be up to 20 hours), by toggling the `limit` and `offset` in the URL [here](#Intheprogram).
+
 e.g.,
 
 ```javascript
@@ -77,5 +85,3 @@ filteredPlaylist = await simplifiedPlaylist.filter(
   (item) => !item.name.startsWith("-") && !item.name.endsWith("喜欢的音乐")
 );
 ```
-
-> P.S. Due to the 300 character limit of the playlist description in Spotify, the failed song transitions info in playlist description may not be complete, you can check terminal output for missing information.

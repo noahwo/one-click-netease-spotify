@@ -1,11 +1,8 @@
 const fs = import("fs");
 import { error } from "console";
 import fetch from "node-fetch";
-import { writeFile } from "fs/promises";
 await import("dotenv/config");
-import { readFile } from "fs/promises";
-import { fail } from "assert";
-import { domainToUnicode } from "url";
+import { readFile, writeFile } from "fs/promises";
 
 const NE_API = process.env.NE_API;
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;

@@ -8,6 +8,8 @@ Oneclick to import all your playlists from Netease Music to Spotify.
 
 ## Step by step instruction
 
+Firstly, rename `example.env` to `.env`.
+
 ### Netease Music side
 
 #### API service hosting

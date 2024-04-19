@@ -8,7 +8,21 @@ Oneclick to import all your playlists from Netease Music to Spotify.
 
 ## Step by step instruction
 
-Firstly, rename `example.env` to `.env`.
+Firstly, clone the project to your local machine and install packages.
+
+```bash
+git clone https://github.com/noahwo/one-click-netease-spotify.git
+cd one-click-netease-spotify
+npm insall
+```
+
+You can start up the app by:
+
+```bash
+node app.js
+```
+
+Then rename `example.env` to `.env`.
 
 ### Netease Music side
 
@@ -43,10 +57,7 @@ The `token` variable is what we want, copy the full string to `.env`, e.g., `ACC
 
 > NOTE: This token expires in 1 hour, you need to refresh it manually.
 
-### Run the program
-
-...
-...
+### In the program
 
 In the function `fetchNeteasePlaylists(USER_ID)`, you can edit `limit` and `offset` in the URL. `limit` (by default 30) determines how many playlists you wanna import, and `offset` (by default 0) determines the starting point (#th of your all lists) of the importing.
 e.g.,

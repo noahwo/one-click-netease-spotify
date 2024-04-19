@@ -14,7 +14,28 @@ const COUNTRY_CODE = "FI";
 let pl_count = 0;
 
 const dev = false; // For dev purpose, codeflow would differ for tesing purpose
-const personalised = true;
+const personalised = false;
+
+/**
+ * Test the validity of the Spotify access token.
+ * @returns {boolean} True if the token is valid, false otherwise.
+ */
+async function testTokenValidity() {
+  const endpoint = "v1/me"; // This endpoint gets user profile and requires valid token
+  const method = "GET";
+
+  try {
+    const response = await fetchWebApi(endpoint, method);
+    if (response) {
+      console.log("[INFO] Token is valid.");
+      return true;
+    }
+  } catch (error) {
+    console.error("[ERROR] Invalid token:", error.message);
+  }
+  return false;
+}
+
 /**
  * Fetch a list of playlists from Netease User
  * @param {string} USER_ID Netease user ID
@@ -271,6 +292,17 @@ async function getUriForTracks(tracks) {
 }
 
 async function main() {
+  // Test your spotify access token validity in advance
+  const isValid = await testTokenValidity();
+  if (!isValid) {
+    console.error(
+      "Invalid Spotify development access token, update your token and retry."
+    );
+    process.exit(1); // Exits with a failure code
+  } else {
+    console.log("Your Spotify development access token is valid.");
+  }
+
   if (!dev) {
     await collectPlaylists();
   }

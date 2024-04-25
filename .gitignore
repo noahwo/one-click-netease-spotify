@@ -5,7 +5,6 @@ utils/
 .env-production
 test_examples
 fetched_list.json
-
 # Logs
 logs
 *.log
@@ -43,3 +42,4 @@ public
 *.sublime-workspace
 sftp-config.json
 *.code-workspace
+fetched_list.json

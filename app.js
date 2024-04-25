@@ -10,7 +10,56 @@ const USER_ID = process.env.USER_ID;
 const COUNTRY_CODE = process.env.COUNTRY_CODE;
 let pl_count = 0;
 
-const dev = false; // toggle to true if you want to customize importing or filter certain playlists, then go to modify fetchNeteasePlaylists(USER_ID) function
+const dev = true; // toggle to true if you want to customize importing or filter certain playlists, then go to modify fetchNeteasePlaylists(USER_ID) function
+
+class RateLimiter {
+  constructor(limit, interval) {
+    this.limit = limit;
+    this.interval = interval;
+    this.queue = [];
+    this.currentlyActive = 0;
+    this.nextAvailableTime = Date.now();
+  }
+
+  async enqueue(action) {
+    return new Promise((resolve, reject) => {
+      this.queue.push({ action, resolve, reject });
+      this.dequeue();
+    });
+  }
+
+  dequeue() {
+    if (this.queue.length === 0 || this.currentlyActive >= this.limit) {
+      return;
+    }
+
+    const now = Date.now();
+    if (now >= this.nextAvailableTime) {
+      this.execute();
+    } else {
+      setTimeout(() => this.execute(), this.nextAvailableTime - now);
+    }
+  }
+
+  execute() {
+    this.currentlyActive++;
+    const { action, resolve, reject } = this.queue.shift();
+    action()
+      .then(resolve)
+      .catch(reject)
+      .finally(() => {
+        this.currentlyActive--;
+        if (this.currentlyActive < this.limit) {
+          this.nextAvailableTime = Date.now() + this.interval;
+        }
+        this.dequeue();
+      });
+  }
+}
+
+// Create a rate limiter instance with 80 requests allowed every 30 seconds (30000 ms).
+const apiLimiter = new RateLimiter(80, 30000);
+
 /**
  * Test the validity of the Spotify access token.
  * @returns {boolean} True if the token is valid, false otherwise.
@@ -144,14 +193,14 @@ async function collectPlaylists() {
 
 /**
  * Fetch data from the Spotify Web API, adapted from official action example https://developer.spotify.com/
- * @param {string} endpoint API endpoint
- * @param {string} method HTTP method
- * @param {Object} body Request body
- * @returns {Object} Response data
+ * This function is rate-limited to avoid exceeding API call limits.
+ * It enqueues requests and ensures that no more than 80 requests are made per 30 seconds.
+ * @param {string} endpoint - API endpoint
+ * @param {string} method - HTTP method
+ * @param {Object} [body] - Optional request body for POST requests
+ * @returns {Promise<Object>} - A promise that resolves to the response data as a JSON object
  */
 async function fetchWebApi(endpoint, method, body) {
-  // console.log(`[INFO] Encoded endpoint: ${endpoint}`);
-
   const requestOptions = {
     headers: {
       Authorization: `Bearer ${ACCESS_TOKEN}`,
@@ -160,29 +209,26 @@ async function fetchWebApi(endpoint, method, body) {
     body: JSON.stringify(body),
   };
 
-  try {
+  const fetchCall = async () => {
     let res = await fetch(
       `https://api.spotify.com/${endpoint}`,
       requestOptions
     );
-
-    // Handling rate limits: Retry after waiting the time specified in the Retry-After header
     if (res.status === 429) {
-      const retryAfter = parseInt(res.headers.get("Retry-After")) || 1; // Default to 1 second if header is missing
+      const retryAfter = parseInt(res.headers.get("Retry-After")) || 1;
       console.log(
-        `[INFO] Rate limit exceeded, retrying after ${retryAfter} seconds.`
+        `[INFO] Spotify API's rate limit exceeded, retrying after ${retryAfter} seconds.`
       );
       await new Promise((resolve) => setTimeout(resolve, retryAfter * 1000));
-      res = await fetch(`https://api.spotify.com/${endpoint}`, requestOptions); // Retry the request
+      res = await fetch(`https://api.spotify.com/${endpoint}`, requestOptions);
     }
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
     }
     return await res.json();
-  } catch (error) {
-    console.error("[ERROR] Error fetching data: ", error);
-    return null; // Or rethrow, depends on your error handling strategy
-  }
+  };
+
+  return apiLimiter.enqueue(fetchCall);
 }
 
 /**

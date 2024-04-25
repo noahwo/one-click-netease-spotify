@@ -10,8 +10,7 @@ const USER_ID = process.env.USER_ID;
 const COUNTRY_CODE = process.env.COUNTRY_CODE;
 let pl_count = 0;
 
-const dev = false; // For dev purpose, codeflow would differ for tesing purpose
-
+const dev = false; // toggle to true if you want to customize importing or filter certain playlists, then go to modify fetchNeteasePlaylists(USER_ID) function
 /**
  * Test the validity of the Spotify access token.
  * @returns {boolean} True if the token is valid, false otherwise.

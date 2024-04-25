@@ -4,6 +4,7 @@ utils/
 .env-development
 .env-production
 test_examples
+fetched_list.json
 
 # Logs
 logs

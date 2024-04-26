@@ -58,7 +58,7 @@ class RateLimiter {
 }
 
 // Create a rate limiter instance with 80 requests allowed every 30 seconds (30000 ms).
-const apiLimiter = new RateLimiter(80, 30000);
+const apiLimiter = new RateLimiter(10, 1000);
 
 /**
  * Test the validity of the Spotify access token.
@@ -341,7 +341,7 @@ async function main() {
     console.log("[INFO] Your Spotify development access token is valid.");
   }
 
-  await collectPlaylists();
+  // await collectPlaylists();
 
   const final_playlists = JSON.parse(
     await readFile("fetched_list.json", "utf8")
@@ -350,7 +350,7 @@ async function main() {
   // Iterate over each playlist
   for (const p of final_playlists) {
     // Now looping through all playlists
-    console.log(`Processing playlist: ${p.name}`);
+    console.log(`[INFO] Processing playlist: ${p.name}`);
     const total = p.songs.length;
 
     let [found_uris, not_found_uris] = await getUriForTracks(p.songs);
@@ -376,7 +376,7 @@ async function main() {
       let failed_songs = not_found_uris
         .map((element) => `[${element.name} - ${element.artist}]`)
         .join(", ");
-      playlist_info = `From 163 '${p.name}', failed songs: ${failed_songs}`;
+      playlist_info = `From playlist '${p.name}', failed songs: ${failed_songs}`;
       if (playlist_info.length > 300) {
         console.log(`[INFO] FULL LOG: ${playlist_info}`);
         playlist_info = `${playlist_info.substring(
